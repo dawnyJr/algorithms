@@ -17,6 +17,7 @@ exemple pascal(0,2)=1 :
 1 4 6 4 1
 ```
 
+#### Scala :
 ```scala
    def pascal(c: Int, r: Int): Int = {
       if(c == 0 || c == r) 1
