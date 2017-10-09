@@ -25,6 +25,17 @@ exemple pascal(0,2)=1 :
         pascal(c-1,r-1) + pascal(c,r-1)
     }
 ```
+#### Python:
+```Python
+def pascal(r, c):
+    if r < 0 or c < 0:
+        return 0
+    elif r == c:
+        return 1
+    else:
+        return pascal (r-1, c-1) + pascal(r-1, c)
+```
+
 * Parentheses Balancing :
 Balanced parentheses means that each opening symbol has a corresponding closing symbol and the pairs of parentheses are properly nested. Consider the following correctly balanced strings of parentheses:
 ```
