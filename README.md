@@ -1,4 +1,3 @@
 ### Algorithms :
 
-This project contain a set of algorithms implemented with different programing languages, feel free to contribute even by updating this README
-
+This project contains a set of algorithms implemented in different programning languages. Feel free to contribute even by updating this README
