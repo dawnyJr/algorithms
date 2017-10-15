@@ -1,4 +1,24 @@
 
-__pycache__/
-*.py[cod]
+#python
+**/__pycache__/
+**/*.py[cod]
 
+#sbt
+**/target/
+**/lib_managed/
+**/src_managed/
+**/project/boot/
+**/project/plugins/project/
+
+#ide
+**/.scala_dependencies
+**/.worksheet
+**/.idea
+**/sonar-project.properties
+**/.scannerwork
+**/.classpath
+**/.project
+**/.settings
+
+#maven
+**/target/
