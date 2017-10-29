@@ -22,3 +22,7 @@
 
 #maven
 **/target/
+
+#gradle
+**/build/
+**/.gradle/
