@@ -1,11 +1,17 @@
 package com.algorithms.bubblesort
 
 /**
+ * Class containing a method for sorting array using the Bubble sort.
+ *
  * Created by Sabiq Ihab on 11/19/17.
  */
 class BubbleSort {
 
-
+/**
+ *
+ * @param arr array to be sorted
+ * @return sorted array
+ */
     def sort(int[] arr) {
         def swapped = true
 
