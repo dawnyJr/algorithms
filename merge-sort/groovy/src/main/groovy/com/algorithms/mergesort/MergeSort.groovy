@@ -1,7 +1,18 @@
 package com.algorithms.mergesort
 
+/**
+ * Class containing a method for sorting array using the merge sort.
+ *
+ * Created by Sabiq Ihab on 12/11/17.
+ */
+
 class MergeSort {
 
+/**
+ *
+ * @param list list to be sorted
+ * @return sorted list 
+ */
     def mergeSort(def list){
 
         if ( list.size() <= 1 ){
